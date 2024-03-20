@@ -1,0 +1,332 @@
+<html>
+
+<head>
+  <!doctype html>
+  <html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Site</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  </head>
+
+<body>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" /><meta charset="UTF-8">
+  <meta name="viewport" content="width=>, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="careers.css" class="css">
+  </head>
+
+  <body>
+
+    <div class="searchbar">
+      <div class="logo">
+       <img src="./image-removebg-preview (11).png" height="60px" width="150px">
+      </div>
+      <div class="contacts">
+       
+       <a href="./candidate login.html">Candidate Login</a>
+   
+       <a href=""><i class="fa-solid fa-earth-americas fa-spin fa-spin-reverse" style="color: #1aa832;"></i></a>
+       <a href=""><i class="fa-solid fa-magnifying-glass fa-beat-fade" style="color: #f7f7f7;"></i></a>
+       </div>
+     </div><br><br><br>
+    <nav>
+            
+      <ul class="show hide" id="nav">
+          <li><a href="index.html">AboutUS</a></li>
+          <li><a href="./products.html">Products</a></li>
+          <li><a href="./investors.html">Investors</a></li>
+          <li><a href="./community.html">Community</a></li>
+          <li><a href="#">Carrers</a></li>
+      </ul>
+  
+  
+      <div class="ham">
+          <i class=" fa-solid fa-bars" id="ham_menu" onclick="menu()"></i>
+      </div>
+  </nav>
+  </header>
+  
+  
+  
+  <script>
+  var ham_menu = document.getElementById("ham_menu");
+  var nav = document.getElementById("nav");
+  
+  function menu() {
+      ham_menu.classList.toggle("fa-x")
+      nav.classList.toggle("hide")
+  
+  }
+  
+
+  function scrollfun(){
+    
+    var scrollValue = window.scrollY
+    var nav = document.getElementById("nav")
+
+    if(scrollValue > 100 && scrollValue <1000){
+        nav.style.backgroundColor="skyblue";
+    }
+
+    else if(scrollValue > 1000 && scrollValue < 2000){
+        nav.style.backgroundColor="green";
+    }
+
+    else if(scrollValue > 2000 && scrollValue < 3000){
+        nav.style.backgroundColor="yellow";
+    }
+
+    else{
+        nav.style.backgroundColor="#333";
+    }
+}
+    
+    window.onscroll=scrollfun;
+
+  </script>
+  
+
+
+
+  
+
+
+    <div class="images">
+    </div>
+    <div class="div1">
+      <div class="div2">
+        <h1> In every walk of Lupin life, our people are the <span class="span1">#ForceOfGood</span>
+          in their mission of enhancing patient's life and longevity.</h1>
+      </div>
+    </div>
+
+
+
+    <div class="div3">
+      <div class="div4">
+        <h1>Come work with us
+          in the Lupin World</h1>
+        <p>We take pride in being the frontrunners of harbouring a
+          multigenerational work culture. Lupin provides several
+          opportunities for young graduates as well as experienced
+          professionals for a fulfilling career.</p>
+        <a href="#"> <input type="submit" value="click here for current opportunities"></a>
+      </div>
+    </div> <br><br>
+
+
+    <div class="div5">
+      <div class="div6">
+        <p><span class="span2">Connect with us for
+            our Campus Hiring Programmes</span> <br><br>
+          We work with leading educational institutions and partner with
+          renowned campuses to nurture talent based on current and
+          projected industry requirements. A few of our initiatives include:</p>
+
+
+      </div>
+    </div>
+
+
+    <div class="div7">
+      <div class="card1"> <span class="span1">
+          Internship Programme</span>
+        The summer interns get opportunities to work with the best brains in the industry and also Lupin’s leadership
+        team.
+      </div>
+      <div class="card2">
+        <span class="span1">Graduate Engineer Trainees</span>
+        The campus hire programme, with its well-structured year-long mentorship, enables Lupin to identify best talent
+        from students pursuing technical courses and build a robust pipeline of future leaders.
+      </div>
+      <div class="card1">
+        <span class="span1">Management Trainee Programme</span>
+        Management graduates selected from India’s premier management institutes are provided cross-functional exposure
+        to groom them for future leadership roles
+      </div>
+      <div class="card2">
+        <span class="span1">Scholarship Programme</span>
+        We regularly partner with reputed campuses to identify students with potential and award the brightest minds
+        with the Lupin Scholar Award which includes financial aid.
+      </div>
+    </div><br><br>
+
+
+    <div class="div8">
+      <a href="#"><button class="btn3">Write to Us</button></a>
+
+    </div>
+
+    <h1>Take a tour of our Life at Lupin</h1>
+    <h6>We also manufacture smiles.</h6>
+
+    <div class="div9">
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./pexels-monstera-production-6238186.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./pexels-mart-production-7550581.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./pexels-rdne-stock-project-6129042.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+      </div>
+    </div><br><br>
+
+
+
+    <div class="div10">
+      <div class="div11">
+        <h2>
+          The Lighthouses of Lupin: Our values
+        </h2>
+        <p>Our values are like lighthouses – they signal us at every step of the work way, giving us direction, meaning
+          and purpose. Our six core values – comprising Integrity, Passion for Excellence, Teamwork, Entrepreneurial
+          Spirit, Respect and Care, and Customer Focus – are central to our being. <a href="">Read More.</a></p>
+
+      </div>
+      <div class="div12">
+        <img src="./pexels-alesia-kozik-7796981.jpg" alt="">
+      </div>
+    </div><br>
+
+    <!-- <div class="div13">
+      <div class="text1">
+        <h1>Culture of Empowerment, Collaboration and Innovation for a Better Future</h1>
+      </div>
+      <div class="text2">
+        <p>The Spirit of Lupin powers our people and our operating universe, essentially our Work Family. Our culture,
+          defined by our values, translates into an invigorating environment that mentors, nurtures and supports
+          talented individuals in their journey from good to great. Our workplace policies and initiatives are designed
+          to enable our employees’ personal and professional development as they grow through the ranks.
+
+
+          A workplace that blends tradition and modernity: The hallmark of the Lupin legacy is the trust that it has
+          built over the years and its unflinching zeal to embrace the new and novel. We are committed towards
+          innovation and at ease being outside of our comfort zones.
+
+
+          Our talent pool demonstrates the passion and ambition for solving real-world challenges to improve our
+          business and the healthcare industry.</p>
+      </div>
+    </div> -->
+
+
+    <div class="div14">
+      <video src="./video (2160p).mp4" autoplay muted loop></video>
+    </div><br>
+
+
+    <div class="div15">
+      <div class="card6"> <h2>We celebrate our differences</h2>
+
+        We are a global company with offices spread across all continents. As an equal-opportunity employer, our
+        workforce includes employees from different nationalities, cultures and gender etc., and everyone is driven by
+        the passion and pride of making life-saving medicines. We celebrate being a single unified whole, consisting of
+        many different parts.</div>
+      <div class="card7">
+        <img src="./pexels-tima-miroshnichenko-5407206.jpg" alt="">
+      </div>
+    </div><br><br>
+
+    <div class="footer">
+    <div class="footer1">
+      <br>
+      <a href="./facebook.html"><i class="fa-brands fa-facebook-f fa-xs" style="color: #fcfcfd;"></a></i>
+      <a href="http://127.0.0.1:5500/twitter.html"><i class="fa-brands fa-twitter fa-xs" style="color: #f7f7f7;"></a></i>
+      <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube fa-xs" style="color: #fafafa;"></a></i>
+     <a href="http://127.0.0.1:5500/javascript/intagram.html"><i class="fa-brands fa-instagram fa-xs" style="color: #ffffff;"></a></i>
+    <hr>
+    <br><br>
+
+
+  <div id="footer">
+<div class="part1">
+  <h4>about us </h4>
+<p>Our Values</p>
+<p>Our Story</p>
+<p> Globel Manufacturing</p>
+<p>Research & Innovation</p>
+<p> Globel Presence</p>
+<p>Our Governing Principal</p>
+<p>Awards & Recognitiom</p>
+</div>
+
+<div class="part2">
+  <h4>Products </h4>
+<p> Key Therapeutic Areas</p>
+<p>Generic</p>
+<p> Biosimilars</p>
+<p> Specialty</p>
+<p>Over-the-counter(OTC)</p>
+<p>Active pharmaceutical ingredients</p>
+<p> Globel institutional business</p>
+</div>
+
+<div class="part3">
+  <h4>investors </h4>
+<p> reports and filings</p>
+<p> news and events</p>
+<p>community</p>
+<p> careers</p>
+<p> current openings</p>
+</div>
+
+
+
+
+<div class="part2">
+  <h4>MEDIA</h4>
+<p>press releases</p>
+<p>media coverage</p>
+<p>perspective</p>
+<p>media kit</p>
+<p>contact us</p>
+<p>covid-19 response</p>
+<input  class="suppliers"type="button" value="for suppliers">
+</div>
+</div>
+<hr>
+
+ <p4>© 2021 Lupin. All rights reserved Privacy Disclaimer Sitemap
+  </p4>
+    </div>
+     </div>
+
+    
+
+
+     <a href="#nav"> <button class="Btn10">
+      <a href="#nav">
+      <svg height="1.2em" class="arrow" viewBox="0 0 512 512"><path d="M233.4 105.4c12.5-12.5 32.8-12.5 45.3 0l192 192c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L256 173.3 86.6 342.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l192-192z"></path></svg>
+    <p class="text10">Back to Top</p></a>
+      </a> </button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"></script>
+  </body>
+
+</html>

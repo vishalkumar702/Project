@@ -1,0 +1,179 @@
+<html>
+
+<head>
+  <!doctype html>
+  <html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MY SITE</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  </head>
+
+<body>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" / <meta charset="UTF-8">
+  <meta name="viewport" content="width=>, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="candidate.css" class="css">
+  </head>
+
+  <body>
+
+
+
+
+
+
+    <div class="searchbar">
+      <div class="logo">
+        <img src="./image-removebg-preview (11).png" height="60px" width="150px">
+      </div>
+      <div class="contacts">
+        <a href="">MEDIA</a>
+        <a href="">CONTACTus</a>
+
+        <a href=""><i class="fa-solid fa-earth-americas fa-spin fa-spin-reverse" style="color: #1aa832;"></i></a>
+        <a href=""><i class="fa-solid fa-magnifying-glass fa-beat-fade" style="color: #f7f7f7;"></i></a>
+      </div>
+    </div><br><br><br>
+
+
+
+
+    <nav>
+
+      <ul class="show hide" id="nav">
+        <li><a href="index.html">AboutUS</a></li>
+        <li><a href="./products.html">Products</a></li>
+        <li><a href="./investors.html">Investors</a></li>
+        <li><a href="./community.html">Community</a></li>
+        <li><a href="./careers.html">Carrers</a></li>
+      </ul>
+
+
+      <div class="ham">
+        <i class=" fa-solid fa-bars" id="ham_menu" onclick="menu()"></i>
+      </div>
+    </nav>
+    </header>
+
+
+
+    <script>
+      var ham_menu = document.getElementById("ham_menu");
+      var nav = document.getElementById("nav");
+
+      function menu() {
+        ham_menu.classList.toggle("fa-x")
+        nav.classList.toggle("hide")
+
+      }
+
+    </script>
+
+
+
+    <div class="div1">
+      <div class="div2">
+        <h3>career opportinities: sign in</h3><br><br>
+        <h4>already have an account?</h4>
+        <p>Enter your email address and password (both are case-sensitive).</p><br><br>
+        <p>*indicates a required field.</p>
+        <form>
+          <label> Email Address:*</label>
+          <input id="email" type="email"><br><br>
+          <label>Password :*</label>
+          <input id="pass" type="password"><br><br>
+          <button id="sign" class="rohit" type="submit" value="sign in" onclick="change()">Sign in</button><br><br>
+          <button class="btn1">forget your password</button> <br><br>
+
+          <h5>not a regidtered user yet?</h5>
+          <h2> <a href=""><span> create an account?</a></span> to apply for our career opportinities</h2>
+
+
+        </form>
+
+
+        <script>
+          function change() {
+            var email = document.getElementById("email");
+            var password = document.getElementById("pass");
+            var sign = document.getElementById("sign");
+
+
+            if (email.value === '' || password.value === '') {
+              display = 'block'
+            }
+
+            else {
+              alert("sign in");
+              
+            }
+          }
+        </script>
+
+
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"></script>
+  </body>
+
+</html>

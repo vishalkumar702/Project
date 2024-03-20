@@ -1,0 +1,461 @@
+<html>
+
+<head>
+  <!doctype html>
+  <html lang="en">
+
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Site</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+
+  <link rel="stylesheet" href="products.css" class="css">
+  </head>
+
+  <body>
+
+
+    <div class="searchbar">
+      <div class="logo">
+       <img src="./image-removebg-preview (11).png" height="60px" width="150px">
+      </div>
+      <div class="contacts">
+       <a href="">MEDIA</a>
+       <a href="">CONTACTus</a>
+   
+       <a href=""><i class="fa-solid fa-earth-americas fa-spin fa-spin-reverse" style="color: #1aa832;"></i></a>
+       <a href=""><i class="fa-solid fa-magnifying-glass fa-beat-fade" style="color: #f7f7f7;"></i></a>
+       </div>
+     </div><br><br><br>
+  
+  
+
+
+    <nav>
+            
+      <ul class="show hide" id="nav">
+          <li><a href="./index.html">AboutUS</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="./investors.html">Investors</a></li>
+          <li><a href="./community.html">Community</a></li>
+          <li><a href="./careers.html">Carrers</a></li>
+      </ul>
+  
+  
+      <div class="ham">
+          <i class=" fa-solid fa-bars" id="ham_menu" onclick="menu()"></i>
+      </div>
+  </nav>
+  </header>
+  
+  
+  
+  <script>
+  var ham_menu = document.getElementById("ham_menu");
+  var nav = document.getElementById("nav");
+  
+  function menu() {
+      ham_menu.classList.toggle("fa-x")
+      nav.classList.toggle("hide")
+  
+  }
+
+  function scrollfun(){
+    
+    var scrollValue = window.scrollY
+    var nav = document.getElementById("nav")
+
+    if(scrollValue > 100 && scrollValue <1000){
+        nav.style.backgroundColor="skyblue";
+    }
+
+    else if(scrollValue > 1000 && scrollValue < 2000){
+        nav.style.backgroundColor="green";
+    }
+
+    else if(scrollValue > 2000 && scrollValue < 3000){
+        nav.style.backgroundColor="yellow";
+    }
+
+    else if(scrollValue > 3000 && scrollValue < 4000){
+        nav.style.backgroundColor="aqua";
+    }
+
+    else{
+        nav.style.backgroundColor="#333";
+    }
+}
+    window.onscroll=scrollfun;
+  
+  </script>
+  
+
+   
+
+    <div class="outer-div">
+      <div class="main">
+        <img src="./pexels-polina-tankilevitch-3735715.jpg" class="img-fluid" alt="">
+
+      </div>
+    </div>
+
+    <div class="numbers">
+      Medixa in numbers
+    </div>
+        <div class="main1">
+    
+    <p id="show_count">0</p>
+    <p id="show_count2">0</p>
+    <p id="show_count3">0</p>
+    <p id="show_count4">0</p>
+    <p id="show_count5">0</p>
+        </div>
+     
+
+
+    <div class="div1">
+      <div class="div2">
+
+        <h2>Our Products and Offerings</h2><br>
+        <h4>Our Science, Your Health </h4><br>
+        <p>
+          With a footprint across 100+ countries and all
+          major therapy areas, Lupin is the world’s 10th<br>
+          largest generic pharma company. Our unrelenting
+          focus on responsible manufacturing drives our<br>
+          sustained growth as a globalformulations and
+          API major. Our 15 state-of-the-art manufacturing <br>
+          facilities spread across India, the US, Brazil
+          and Mexico areenchmarked to international standards,<br>
+          and play a critical role in helping us deliver affordable
+          and quality healthcare.
+          <br> <br>
+          We follow the science, and are driven by research
+          and innovation to develop a wide range of products<br>
+          in both branded and generic formulations, biotech
+          products, Active Pharmaceutical Ingredients <br>
+          (API) and speciality drugsto address evolving
+          patient needs.<br>
+        </p>
+
+
+      </div>
+    </div>
+
+    <div class="div3">
+      <div class="div4">
+        <p> <span class="span">Key Therapeutic Areas</span><br><br>
+          Over the past six decades, Lupin has carved a niche in numerous therapy areas. Today, we are the global leader
+          in the Anti-Tuberculosis segment and continue to strengthen our anti-TB portfolio with the development of
+          products for treating multi-drug resistant (MDR) tuberculosis. We are also among the leading pharmaceutical
+          companies across geographies in diabetes, cardiology, 
+          best-in-class treatment protocols in these areas. <br><br>
+          <input type="button" value="Explore">
+        </p>
+      </div>
+      <div class="div5">
+        <img src="./pexels-mart-production-7089615.jpg" alt="">
+      </div>
+
+    </div><br><br>
+
+    <div class="div7">
+      <div class="div4">
+
+        <p><span class="span">Generics</span> <br> <br>
+          We have played an effective role in reducing the disease burden across key therapy areas by providing access
+          to affordable mission-critical medicines. In the US, more than 70% of our products rank amongst the top three
+          products in their respective segments. In India, several Lupin brands rank among the Indian Pharmaceutical
+          Markets top 300 brands. Going beyond the pill, our numerous patient-centric initiatives are aimed at patient
+          education, disease awareness, and easy disease monitoring and management. <br><br>
+          <input type="button" value="Explore">
+        </p>
+      </div>
+      <div class="div5">
+        <img src="./pexels-artem-podrez-5726706.jpg" alt="">
+      </div>
+
+    </div> <br><br><br>
+
+
+    <div class="div6">
+      <div class="div4">
+
+        <p><span class="span">Biosimilars</span> <br> <br>
+
+          Lupin’s biosimilar programme is focused on making high quality biologics affordable and accessible to patients
+          across the globe. Our flagship product Etanercept, an injectable biologic, is currently available in Japan,
+          India and the EU. It is a breakthrough in the treatment of many chronic, immune-mediated inflammatory diseases
+          such as rheumatoid arthritis, psoriatic arthritis, axial spondylarthritis and plaque psoriasis. Our other
+          biosimilars include Lupifil® and Lupifil-P®.
+          Explore <br><br>
+          <input type="button" value="Explore">
+        </p>
+      </div>
+      <div class="div5">
+        <img src="./pexels-andrea-piacquadio-3768916.jpg" alt="">
+      </div>
+
+    </div> <br><br><br>
+
+
+    <div class="div8">
+      <div class="div4">
+
+        <p><span class="span">Specialty Drugs</span> <br> <br>
+
+          The changing landscape of patient needs and disease complexity offers opportunities for special branded
+          medication in specific therapy areas. We have identified women’s health in the US and rare diseases in the EU
+          region as core focus areas for our specialty strategy. We continue respiratory and ophthalmology, among others, pioneeringworking towards expanding the reach of our
+          existing products and adding more specialty products to our portfolio. <br><br>
+          <input type="button" value="Explore">
+        </p>
+      </div>
+      <div class="div5">
+        <img src="./pexels-anna-shvets-3844581.jpg" alt="">
+      </div>
+
+    </div> <br><br><br>
+
+
+
+    <div class="div9">
+      <div class="div4">
+
+        <p><span class="span">Over-the-Counter</span> <br> <br>
+
+          Our OTC divisions across the globe, such as LupinLife Consumer Care in India and Pharmacy Action in Australia,
+          are committed to bringing value-based offerings to meet consumer demands and enhance their quality of life.
+          Backed by a robust distribution network, we offer both Rx-to-OTC and direct OTC products to address growing
+          consumer needs. From bowel regulators and intimate hygiene solutions for women, to health supplements for men
+          and a range of personal sanitisation products.Explore
+
+          <br><br>
+          <input type="button" value="Explore">
+        </p>
+      </div>
+      <div class="div10">
+        <marquee direction="up">
+          <img src="./kta-350.jpg" alt="">
+        </marquee>
+      </div>
+
+    </div> <br><br><br>
+
+    <div class="div11">
+      <div class="div12">
+        <div class="card mb-3" style="width: 18rem;">
+          <div class="card-body">
+            <p class="card-text"><span class="anya">Anya-</span> Lupin’s health chatbot launched in FY18 — can answer
+              queries on Diabetes, Respiratory
+              Ailments, Hypertension and Anti-Tb. It is a multilingual bot and in addition to English, it responds in 5
+              regional languages Hindi, Tamil, Marathi, Bengali and Kannada. Access Anya on www.askanya.in and say
+              “Hello” to start asking any health related queries. With a hassle-free interface and real-time
+              replies,.complimentary medications, blood sugar diagnostic test
+              kit, and lifestyle management tips and more. To know more, please visit.
+              you can get medically verified answers from Anya. So just go ahead and Ask Anya!.</p>
+
+          </div>
+        </div>
+
+
+        <div class="card mb-3" style="width: 18rem;">
+          <div class="card-body">
+            <p class="card-text"> In our continued battle to eradicate tuberculosis in India, we have developed a unique
+              mobile app called ‘Fight TB’, a one-stop solution for doctors treating the dread disease. ‘Fight TB’
+              promotes WHO-recommended TB-treatment guidelines and helps clinicians notify TB patients. With more than
+              45K downloads in less than a year, it is a great reference for
+              Doctors. Download now by searching for LegalRx on Google Playstore.complimentary medications, blood sugar
+              diagnostic test
+              kit.</p>
+
+          </div>
+        </div>
+
+        <div class="card mb-3" style="width: 18rem;">
+          <div class="card-body">
+            <p class="card-text"><span class="anya"> Humrahi-</span>
+              We have designed diabetes patient support program to make a positive impact on the continuum of care for
+              diabetes patients and improve patient outcomes. It aims to provide seamless patient onboarding through a
+              mobile friendly app and website ensuring therapy adherence and comprehensive support. The program offers
+              services like personalized counselling sessions,
+              <a href="">www.humrahi.co.in</a>
+            </p>
+
+          </div>
+        </div>
+
+        <div class="card mb-3" style="width: 18rem;">
+          <div class="card-body">
+            <p class="card-text"><span class="anya">SAHAYAK’</span> is our AI (Artificial Intelligence) powered WhatsApp
+              chatbot where patients
+              can have their queries related to hypertension answered by simply texting on to SAHAYAK WhatsApp number
+              7777 0 44 111. Queries can be around the basics of hypertension, complications of hypertension, right way
+              to measure blood pressure or related to lifestyle and globally certified Connected Devices, modifications
+              like diet, exercise plans, etc.to help you
+              with your cardiac disease or on your recovery path post a cardiac event. For more information, click Lorem
+              ipsum dolor sit amet consectetur adipisicing elit. Ad, magni.
+              lyfe.in
+
+            </p>
+          </div>
+        </div>
+
+        <div class="card mb-3" style="width: 18rem;">
+          <div class="card-body">
+            <p class="card-text"> Doctors need medico-legal guidance since the start of their professional careers right
+              from setting up clinic to taking patient consent to tele-medicine. Today, doctors turn to the internet for
+              answers only to find unvalidated sources of information in complicated language.
+              It covers all aspects in a simple, Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet. easy to
+              understand complications of hypertension, right way
+              to measure blood pressure or related to lifestyle and globally.
+              language.</p>
+
+          </div>
+        </div>
+
+        <div class="card mb-3" style="width: 18rem;">
+          <div class="card-body">
+            <p class="card-text"> <span class="anya">LYFE –</span> LYFE is India’s 1st and only evidence-based Digital
+              Therapeutics Solution for
+              wholehearted care. A user-friendly Digital app that combines the best human interventions, scientific
+              evidence and Artificial Intelligence. LYFE provides whole-hearted care from the ecosystem of your
+              Cardiologist and our Health Coaches,right way Lorem ipsum dolor sit amet.
+              to measure blood pressure or related to lifestyle and globally </p>
+          </div>
+        </div>
+
+        <div class="last">
+           <h2>Tech-Driven Offerings</h2>
+          Lupin has been at the forefront of technology adoption and identifying new ways to deepen the connect with our
+          patients. Be it our Bluetooth-enabled inhalation device or an AI-driven chatbot to answer your queries around
+          key therapies, we are constantly on the lookout for ways to leverage technology for making life easier for our
+          patients.
+        </div>
+      </div>
+    </div> <br><br><br>
+
+
+    <div class="footer">
+      <div class="footer1">
+        <br>
+        <a href="./facebook.html"><i class="fa-brands fa-facebook-f fa-xs" style="color: #fcfcfd;"></a></i>
+        <a href="http://127.0.0.1:5500/twitter.html"><i class="fa-brands fa-twitter fa-xs" style="color: #f7f7f7;"></a></i>
+        <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube fa-xs" style="color: #fafafa;"></a></i>
+       <a href="intagram.html"><i class="fa-brands fa-instagram fa-xs" style="color: #ffffff;"></a></i>
+      <hr>
+      <br><br>
+  
+  
+    <div id="footer">
+  <div class="part1">
+    <h4>about us </h4>
+  <p>Our Values</p>
+  <p>Our Story</p>
+  <p> Globel Manufacturing</p>
+  <p>Research & Innovation</p>
+  <p> Globel Presence</p>
+  <p>Our Governing Principal</p>
+  <p>Awards & Recognitiom</p>
+  </div>
+  
+  <div class="part2">
+    <h4>Products </h4>
+  <p> Key Therapeutic Areas</p>
+  <p>Generic</p>
+  <p> Biosimilars</p>
+  <p> Specialty</p>
+  <p>Over-the-counter(OTC)</p>
+  <p>Active pharmaceutical ingredients</p>
+  <p> Globel institutional business</p>
+  </div>
+  
+  <div class="part3">
+    <h4>investors </h4>
+  <p> reports and filings</p>
+  <p> news and events</p>
+  <p>community</p>
+  <p> careers</p>
+  <p> current openings</p>
+  </div>
+  
+  
+  
+  
+  <div class="part2">
+    <h4>MEDIA</h4>
+  <p>press releases</p>
+  <p>media coverage</p>
+  <p>perspective</p>
+  <p>media kit</p>
+  <p>contact us</p>
+  <p>covid-19 response</p>
+  <input  class="suppliers"type="button" value="for suppliers">
+  </div>
+  </div>
+  <hr>
+  
+   <p4>© 2021 Lupin. All rights reserved Privacy Disclaimer Sitemap
+    </p4>
+      </div>
+       </div>
+      
+       
+
+       
+ <a href="#nav"> <button class="Btn10">
+  <a href="#nav">
+  <svg height="1.2em" class="arrow" viewBox="0 0 512 512"><path d="M233.4 105.4c12.5-12.5 32.8-12.5 45.3 0l192 192c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L256 173.3 86.6 342.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l192-192z"></path></svg>
+<p class="text10">Back to Top</p></a>
+  </a> </button>
+
+<script>
+
+
+//counter start---->
+function countUp(){
+var show_count = document.getElementById("show_count");
+var show_count2 = document.getElementById("show_count2");
+var count = 10000;
+var count2 = 0;
+
+var intervalSet = setInterval(()=>{
+count++;
+count2++;
+
+count <= 10500 ? show_count.innerHTML = `${count} +` : clearInterval(intervalSet),
+count <= 10500 ? show_count2.innerHTML = `${count} +` : clearInterval(intervalSet);
+count <= 10500 ? show_count3.innerHTML = `${count} +` : clearInterval(intervalSet);
+count <= 10500 ? show_count4.innerHTML = `${count} +` : clearInterval(intervalSet);
+count <= 10500 ? show_count5.innerHTML = `${count} +` : clearInterval(intervalSet);
+;
+})
+}
+
+countUp();
+//counter end----->
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"></script>
+  </body>
+
+</html>
